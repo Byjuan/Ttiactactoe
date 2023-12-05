@@ -1,0 +1,61 @@
+.gano{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* a de alpha = opacidad*/
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 100rem;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 2000;
+    top: 0;
+}
+
+/*Estilos al titulo y al boton para jugar de nuevo */
+
+.titulo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    margin-top:  50px;
+    width: 100vw;
+    height: 30vh;
+}
+
+.buttom { 
+    position: absolute;
+    top: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    font-size: 20px;/* tamaño de la letra */
+    border: 5px solid white; /*borde del contenedor*/
+    border-radius: 30px; /* Redondes del cuadrado */
+    height: 40px; /* Altura */
+    width: 160px; /* Ancho */
+    cursor: pointer; /* Presenta el cursor como link */
+    transition: .5s; /* Transicion */
+    color: white; /* Color que tiene la letra */
+    background: none; /* propiedades al background */
+}
+
+.button button:hover /* Pseudo-Clase para aplicar cuando el curso pase*/{
+    background: rgb(255, 255, 255);
+    transition: .5s;
+}  
